@@ -60,8 +60,8 @@ setInterval(generateMoney, 1000)
 function updateStats() {
     moneyStat.innerText = money + "€"
     consumptionStat.innerText = ownedCard * 100 + "W"
-    income = 10 * ownedCard * softwareMultiplierFixed
-    incomeStat.innerText = income + "€/s"
+    income = (10 * ownedCard * softwareMultiplierFixed)
+    incomeStat.innerText = income.toFixed(0) + "€/s"
     powerStat.innerText = powerCapacity * 100 + "W"
 }
 
