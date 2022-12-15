@@ -20,7 +20,7 @@ const softwareStat = document.getElementById("software-p")
 // Income related
 let ownedCard = 1
 let income = 10
-let money = 10000000
+let money = 1500
 
 // ------------------------------------------------------------------------------------------------
 
