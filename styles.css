@@ -1,7 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -15,12 +11,13 @@ body {
 }
 
 main {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+/* Text default styling */
 span,
 p {
     font-family: 'Inter';
@@ -32,15 +29,6 @@ p {
 
 img {
     width: 100%;
-    justify-self: center;
-}
-
-.slot-span {
-    position: absolute;
-    right: 4px;
-    bottom: 4px;
-    z-index: 3;
-    color: #D9D9D9;
 }
 
 /* ------------------------------------------------ */
@@ -68,6 +56,14 @@ img {
     display: flex;
     margin: 10px;
     border: 1px solid #12d700;
+}
+
+.slot-span {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    z-index: 3;
+    color: #D9D9D9;
 }
 
 .locked {
