@@ -16,7 +16,9 @@
     <main>
 
         <section id="slot-section">
-            <div id="slot-1" class="slot"><img src="rtx 4090.png" alt="4090"><span id="slot-span-1">1</span></div>
+            <div id="slot-1" class="slot"><img src="images/rtx 4090.png" alt="4090"><span class="slot-span"
+                    id="slot-span-1">1</span>
+            </div>
             <div id="slot-2" class="slot locked">locked</div>
             <div id="slot-3" class="slot locked">locked</div>
             <div id="slot-4" class="slot locked">locked</div>
@@ -30,39 +32,47 @@
             <div id="slot-12" class="slot locked">locked</div>
         </section>
 
-        <section id="stat-section">
-            <div id="stats-left">
-                <p>Money:</p>
-                <p>income:</p>
-                <p>Power capacity:</p>
-                <p>Power consumption:</p>
-                <p>Software efficiency boost:</p>
-            </div>
-            <div id="stats-right">
-                <p class="right-aligned" id="money-p">0€</p>
-                <p class="right-aligned" id="income-p">10€/s</p>
-                <p class="right-aligned" id="capacity-p">500W</p>
-                <p class="right-aligned" id="consumption-p">100W</p>
-                <p class="right-aligned" id="software-p">x1.0</p>
-            </div>
-        </section>
+        <div id="stats-upgrade-container">
+            <section id="stat-section">
+                <div id="stats-left">
+                    <p>Money:</p>
+                    <p>income:</p>
+                    <p>Power capacity:</p>
+                    <p>Power consumption:</p>
+                    <p>Software efficiency boost:</p>
+                </div>
+                <div id="stats-right">
+                    <p class="right-aligned" id="money-p">0€</p>
+                    <p class="right-aligned" id="income-p">10€/s</p>
+                    <p class="right-aligned" id="capacity-p">500W</p>
+                    <p class="right-aligned" id="consumption-p">100W</p>
+                    <p class="right-aligned" id="software-p">x1.0</p>
+                </div>
+            </section>
 
-        <section id="upgrade-section">
-            <div class="upgrade-button" id="buy-card-slot" onclick="unlockSlot()">
-                <p class="upgrade-text">Buy card slot (+1 slot)</p>
-            </div>
-            <div class="upgrade-button" id="buy-graphics-card" onclick="buyCard()">
-                <p class="upgrade-text">Buy graphics card (+10€/s)</p>
-            </div>
-            <div class="upgrade-button" id="upgrade-power" onclick="upgradePower()">
-                <p class="upgrade-text">Upgrade power (+100W)</p>
-            </div>
-            <div class="upgrade-button" id="more-efficient-software" onclick="upgradeSoftware()">
-                <p class="upgrade-text">More efficient software (+0.1x multiplier)</p>
-            </div>
-        </section>
+            <section id="upgrade-section">
+                <div class="upgrade-button" id="buy-card-slot" onclick="unlockSlot()">
+                    <p class="upgrade-text">Buy card slot (+1 slot) </p>
+                    <p class="right-aligned upgrade-text">500€</p>
+
+                </div>
+                <div class="upgrade-button" id="buy-graphics-card" onclick="buyCard()">
+                    <p class="upgrade-text">Buy graphics card (+10€/s)</p>
+                    <p class="right-aligned upgrade-text">1000€</p>
+                </div>
+                <div class="upgrade-button" id="upgrade-power" onclick="upgradePower()">
+                    <p class="upgrade-text">Upgrade power (+100W)</p>
+                    <p class="right-aligned upgrade-text">500€</p>
+                </div>
+                <div class="upgrade-button" id="more-efficient-software" onclick="upgradeSoftware()">
+                    <p class="upgrade-text">More efficient software (+0.1x multiplier)</p>
+                    <p class="right-aligned upgrade-text">750€</p>
+                </div>
+            </section>
+        </div>
 
     </main>
+
 
     <script src="main.js"></script>
 </body>

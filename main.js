@@ -20,7 +20,7 @@ const softwareStat = document.getElementById("software-p")
 // Income related
 let ownedCard = 1
 let income = 10
-let money = 200000
+let money = 10000000
 
 // ------------------------------------------------------------------------------------------------
 
@@ -90,77 +90,77 @@ function buyCard() {
 
                 // Slot 2
             } else if (ownedCard < 20 && document.getElementById("slot-2").classList[1] !== "locked") {
-                document.getElementById("slot-2").innerHTML = '<img src="rtx 4090.png" alt="4090"><span id="slot-span-2"></span>'
+                document.getElementById("slot-2").innerHTML = '<img src="images/rtx 4090.png" alt="4090"><span class="slot-span" id="slot-span-2"></span>'
                 ownedCard++
                 money = money - 1000
                 document.getElementById("slot-span-2").innerText = ownedCard - 10
 
                 // Slot 3
             } else if (ownedCard < 30 && document.getElementById("slot-3").classList[1] !== "locked") {
-                document.getElementById("slot-3").innerHTML = '<img src="rtx 4090.png" alt="4090"><span id="slot-span-3"></span>'
+                document.getElementById("slot-3").innerHTML = '<img src="images/rtx 4090.png" alt="4090"><span class="slot-span" id="slot-span-3"></span>'
                 ownedCard++
                 money = money - 1000
                 document.getElementById("slot-span-3").innerText = ownedCard - 20
 
                 // Slot 4
             } else if (ownedCard < 40 && document.getElementById("slot-4").classList[1] !== "locked") {
-                document.getElementById("slot-4").innerHTML = '<img src="rtx 4090.png" alt="4090"><span id="slot-span-4"></span>'
+                document.getElementById("slot-4").innerHTML = '<img src="images/rtx 4090.png" alt="4090"><span class="slot-span" id="slot-span-4"></span>'
                 ownedCard++
                 money = money - 1000
                 document.getElementById("slot-span-4").innerText = ownedCard - 30
 
                 // Slot 5
             } else if (ownedCard < 50 && document.getElementById("slot-5").classList[1] !== "locked") {
-                document.getElementById("slot-5").innerHTML = '<img src="rtx 4090.png" alt="4090"><span id="slot-span-5"></span>'
+                document.getElementById("slot-5").innerHTML = '<img src="images/rtx 4090.png" alt="4090"><span class="slot-span" id="slot-span-5"></span>'
                 ownedCard++
                 money = money - 1000
                 document.getElementById("slot-span-5").innerText = ownedCard - 40
 
                 // Slot 6
             } else if (ownedCard < 60 && document.getElementById("slot-6").classList[1] !== "locked") {
-                document.getElementById("slot-6").innerHTML = '<img src="rtx 4090.png" alt="4090"><span id="slot-span-6"></span>'
+                document.getElementById("slot-6").innerHTML = '<img src="images/rtx 4090.png" alt="4090"><span class="slot-span" id="slot-span-6"></span>'
                 ownedCard++
                 money = money - 1000
                 document.getElementById("slot-span-6").innerText = ownedCard - 50
 
                 // Slot 7
             } else if (ownedCard < 70 && document.getElementById("slot-7").classList[1] !== "locked") {
-                document.getElementById("slot-7").innerHTML = '<img src="rtx 4090.png" alt="4090"><span id="slot-span-7"></span>'
+                document.getElementById("slot-7").innerHTML = '<img src="images/rtx 4090.png" alt="4090"><span class="slot-span" id="slot-span-7"></span>'
                 ownedCard++
                 money = money - 1000
                 document.getElementById("slot-span-7").innerText = ownedCard - 60
 
                 // Slot 8
             } else if (ownedCard < 80 && document.getElementById("slot-8").classList[1] !== "locked") {
-                document.getElementById("slot-8").innerHTML = '<img src="rtx 4090.png" alt="4090"><span id="slot-span-8"></span>'
+                document.getElementById("slot-8").innerHTML = '<img src="images/rtx 4090.png" alt="4090"><span class="slot-span" id="slot-span-8"></span>'
                 ownedCard++
                 money = money - 1000
                 document.getElementById("slot-span-8").innerText = ownedCard - 70
 
                 // Slot 9
             } else if (ownedCard < 90 && document.getElementById("slot-9").classList[1] !== "locked") {
-                document.getElementById("slot-9").innerHTML = '<img src="rtx 4090.png" alt="4090"><span id="slot-span-9"></span>'
+                document.getElementById("slot-9").innerHTML = '<img src="images/rtx 4090.png" alt="4090"><span class="slot-span" id="slot-span-9"></span>'
                 ownedCard++
                 money = money - 1000
                 document.getElementById("slot-span-9").innerText = ownedCard - 80
 
                 // Slot 10
             } else if (ownedCard < 100 && document.getElementById("slot-10").classList[1] !== "locked") {
-                document.getElementById("slot-10").innerHTML = '<img src="rtx 4090.png" alt="4090"><span id="slot-span-10"></span>'
+                document.getElementById("slot-10").innerHTML = '<img src="images/rtx 4090.png" alt="4090"><span class="slot-span" id="slot-span-10"></span>'
                 ownedCard++
                 money = money - 1000
                 document.getElementById("slot-span-10").innerText = ownedCard - 90
 
                 // Slot 11
             } else if (ownedCard < 110 && document.getElementById("slot-11").classList[1] !== "locked") {
-                document.getElementById("slot-11").innerHTML = '<img src="rtx 4090.png" alt="4090"><span id="slot-span-11"></span>'
+                document.getElementById("slot-11").innerHTML = '<img src="images/rtx 4090.png" alt="4090"><span class="slot-span" id="slot-span-11"></span>'
                 ownedCard++
                 money = money - 1000
                 document.getElementById("slot-span-11").innerText = ownedCard - 100
 
                 // Slot 12
             } else if (ownedCard < 120 && document.getElementById("slot-12").classList[1] !== "locked") {
-                document.getElementById("slot-12").innerHTML = '<img src="rtx 4090.png" alt="4090"><span id="slot-span-12"></span>'
+                document.getElementById("slot-12").innerHTML = '<img src="images/rtx 4090.png" alt="4090"><span class="slot-span" id="slot-span-12"></span>'
                 ownedCard++
                 money = money - 1000
                 document.getElementById("slot-span-12").innerText = ownedCard - 110
